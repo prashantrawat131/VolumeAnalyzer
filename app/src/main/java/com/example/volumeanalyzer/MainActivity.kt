@@ -37,6 +37,7 @@ import kotlin.coroutines.suspendCoroutine
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        CO.toast(this,"Just testing...")
         setContent {
             VolumeAnalyzerTheme {
                 // A surface container using the 'background' color from the theme
